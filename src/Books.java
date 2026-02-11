@@ -101,7 +101,7 @@ public class Books {
                 System.out.print("Enter the quantity to add: ");
                 int addQuantity =  sc.nextInt();
                 b.bookQty += addQuantity;
-                b.bookPhotocopy = b.bookQty;
+                b.bookPhotocopy += addQuantity;
                 return;
             }
         }
